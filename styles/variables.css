@@ -1,1 +1,26 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /* Настройки шрифта */
+  --main-font: 'Inter-Variable', sans-serif;
+  --accent-font: 'PressStart2P-Regular', fantasy;
+  --title-weight: 715px;
+  --text-weight: 410px;
+
+  /* Настройки оформления */
+  --background-image: repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px),
+  repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, transparent 2px 4px),
+  linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  
+  /* Размеры блоков */
+  --block-width: clamp(374px, 100vw, 700px);
+
+  /* Размеры логотипа, заголовков */
+  --font-size-logo-title: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --font-size-logo-description: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  
+  /* Размеры отступов */
+  --header-spacing: clamp(122px, 119.2px + 0.75vw, 130px);
+
+  /* Цвет обводки текста */
+  --text-stroke-color: #fff;
+}
