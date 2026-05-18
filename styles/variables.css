@@ -2,7 +2,7 @@
 :root {
   /* Настройки шрифта */
   --main-font: 'Inter-Variable', sans-serif;
-  --accent-font: 'PressStart2P-Regular', fantasy;
+  --accent-font: 'PressStart2P', fantasy;
   --title-weight: 715;
   --text-weight: 410;
 
